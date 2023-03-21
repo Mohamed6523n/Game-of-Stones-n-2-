@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Game Stones</title>
+    <link rel="icon" href="img/games-roblox-icon-512x512-o2unzjj3.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container  vh-100">
+
+        <div class="shadow bg-white  rounded-5 row mt-5">
+
+            <div class="col-md-6 mt-4 text-center">
+                <h1>Player 1</h1>
+                <div class="btns my-5">
+                    <button onclick="player1Reduce1()" class="btn me-1 btn-outline-warning ">Remove one stone</button>
+                    <button onclick="player1Reduce2()" class="btn btn-outline-danger ">Remove two stones</button>
+                </div>
+
+            </div>
+            
+            <div class="col-md-6 mt-4 text-center ">
+                <h1>Player 2</h1>
+                <div class="btns my-5">
+                    <button onclick="player2Reduce1()" class="btn me-1 btn-outline-warning ">Remove one stone</button>
+                    <button onclick="player2Reduce2()" class="btn btn-outline-danger ">Remove two stones</button>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center my-5">
+                <h4>There are a number of stones</h4>
+                <div class="reman">
+                    <!-- <h3 class="shadow inner rounded-3  m-auto bg-dark border border-2 text-white"></h3> -->
+
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center my-5">
+                <button onclick="playAgin()" class="btn btn-outline-dark">Again</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
